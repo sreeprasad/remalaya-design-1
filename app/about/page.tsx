@@ -54,7 +54,9 @@ export default function AboutPage() {
                 </Link>
               </nav>
             </div>
-            <Button className="bg-accent hover:bg-accent/90 shadow-md">Donate</Button>
+            <Button asChild className="bg-accent hover:bg-accent/90 shadow-md">
+              <Link href="/#donate">Donate</Link>
+            </Button>
           </div>
         </div>
       </header>
@@ -269,9 +271,9 @@ export default function AboutPage() {
               <h3 className="font-semibold mb-4 text-sm text-primary">Support</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a href="#" className="hover:text-accent transition-colors">
+                  <Link href="/#donate" className="hover:text-accent transition-colors">
                     Donate
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#" className="hover:text-accent transition-colors">

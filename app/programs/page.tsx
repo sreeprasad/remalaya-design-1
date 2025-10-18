@@ -55,7 +55,9 @@ export default function ProgramsPage() {
                 </Link>
               </nav>
             </div>
-            <Button className="bg-accent hover:bg-accent/90 shadow-md">Donate</Button>
+            <Button asChild className="bg-accent hover:bg-accent/90 shadow-md">
+              <Link href="/#donate">Donate</Link>
+            </Button>
           </div>
         </div>
       </header>
@@ -200,7 +202,11 @@ export default function ProgramsPage() {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 via-accent/20 to-primary/20 rounded-lg"></div>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden border-4 border-accent/40 shadow-2xl">
-                <img src="/sanskrit-class-children-learning.jpg" alt="Sanskrit Classes" className="w-full h-full object-cover" />
+                <img
+                  src="/sanskrit-class-children-learning.jpg"
+                  alt="Sanskrit Classes"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 

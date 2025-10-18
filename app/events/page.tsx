@@ -55,7 +55,9 @@ export default function EventsPage() {
                 </Link>
               </nav>
             </div>
-            <Button className="bg-accent hover:bg-accent/90 shadow-md">Donate</Button>
+            <Button asChild className="bg-accent hover:bg-accent/90 shadow-md">
+              <Link href="/#donate">Donate</Link>
+            </Button>
           </div>
         </div>
       </header>
