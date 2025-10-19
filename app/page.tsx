@@ -303,7 +303,7 @@ export default function SouthIndianDesign1() {
           <Card className="overflow-hidden border-2 border-accent/20 hover:border-accent/40 transition-all hover:shadow-lg">
             <div className="aspect-video bg-muted relative">
               <img
-                src="/diwali-festival-celebration-community.jpg"
+                src="/dance-festival-celebration-community.jpg"
                 alt="Diwali Festival"
                 className="w-full h-full object-cover"
               />
